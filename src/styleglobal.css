@@ -8,15 +8,24 @@
   --cor-fundo2: #393939;
   --cor-fundo3: #717171;
   --cor-footer: #919191;
-
 }
 
-html, body, #root {
+html,
+body,
+#root {
   height: 100%;
   background: var(--cor-fundo1);
   color: #fff;
-  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
-    Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    Helvetica,
+    Arial,
+    "Apple Color Emoji",
+    "Segoe UI Emoji";
   line-height: 1.5;
 }
 
@@ -80,7 +89,10 @@ p {
   padding: 12px 20px;
   border-radius: 10px;
   font-weight: 700;
-  transition: transform 0.15s ease, box-shadow 0.2s ease, background 0.2s ease;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
   border: 1px solid transparent;
 }
 
@@ -99,17 +111,15 @@ p {
   background: transparent;
   border-color: #ffffff22;
   color: #fff;
- 
-  }
-  .inicio {
-    display:block;
-    margin: 15px auto;
-    text-align: center;
-    width: 80%;
-  }
+}
+.inicio {
+  display: block;
+  margin: 15px auto;
+  text-align: center;
+  width: 80%;
+}
 .btn-outline:hover {
   background: #ffffff10;
- 
 }
 /* Dido: card e foto com a mesma altura na linha (flex stretch + img absoluta) */
 .artista-destaque {
@@ -128,7 +138,9 @@ p {
   border-radius: 14px;
   overflow: hidden;
   border: 1px solid #ffffff14;
-  box-shadow: inset 0 1px 0 #ffffff10, 0 8px 28px rgba(0, 0, 0, 0.25);
+  box-shadow:
+    inset 0 1px 0 #ffffff10,
+    0 8px 28px rgba(0, 0, 0, 0.25);
 }
 .artista-destaque__foto-shell .dido {
   position: absolute;
@@ -155,7 +167,6 @@ p {
   gap: 12px;
   flex-wrap: wrap;
   justify-content: space-around;
-
 }
 .orcamento-cta {
   justify-content: flex-start;
@@ -168,11 +179,14 @@ p {
   border: 1px solid #ffffff14;
   border-radius: 14px;
   padding: 18px;
-  box-shadow: inset 0 1px 0 #ffffff10, 0 8px 28px rgba(0, 0, 0, 0.25);
+  box-shadow:
+    inset 0 1px 0 #ffffff10,
+    0 8px 28px rgba(0, 0, 0, 0.25);
 }
 .card.accent {
   border-color: rgba(215, 101, 39, 0.35);
-  box-shadow: inset 0 1px 0 rgba(215, 101, 39, 0.2),
+  box-shadow:
+    inset 0 1px 0 rgba(215, 101, 39, 0.2),
     0 8px 28px rgba(215, 101, 39, 0.15);
 }
 .card.quote {
@@ -194,35 +208,33 @@ footer p,
 footer a {
   color: var(--cor-footer);
 }
-.gap { 
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-  }
+.gap {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
 
 footer ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
-footer  {
+footer {
   background: var(--cor-fundo2);
-padding: 10px;
-font-size: 13px;
-
+  padding: 10px;
+  font-size: 13px;
 }
 
 .redes-sociais img {
   width: 32px;
 }
 
-
 .two-col {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
   gap: 24px;
 }
-.logo-footer{
+.logo-footer {
   width: 80px;
 }
 @media (max-width: 900px) {
@@ -256,8 +268,16 @@ font-size: 13px;
   position: relative;
   padding: 120px 0 72px;
   background:
-    radial-gradient(1200px 500px at 10% -10%, rgba(215, 101, 39, 0.18), transparent 60%),
-    radial-gradient(1000px 500px at 90% -20%, rgba(215, 101, 39, 0.12), transparent 60%);
+    radial-gradient(
+      1200px 500px at 10% -10%,
+      rgba(215, 101, 39, 0.18),
+      transparent 60%
+    ),
+    radial-gradient(
+      1000px 500px at 90% -20%,
+      rgba(215, 101, 39, 0.12),
+      transparent 60%
+    );
   border-bottom: 1px solid #ffffff12;
 }
 .hero .container {

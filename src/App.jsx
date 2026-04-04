@@ -23,18 +23,20 @@ export default function App() {
               carrega uma história — a sua.
             </p>
             <div className="cta">
-            <a
-            className="btn btn-primary"
-                  href="https://wa.me/558488075719"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-              
+              <a
+                className="btn btn-primary"
+                href="https://wa.me/558488075719"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Agendar sessão
               </a>
-              <a className="btn btn-outline"  href="https://wa.me/558488075719"
-                  target="_blank"
-                  rel="noreferrer">
+              <a
+                className="btn btn-outline"
+                href="https://wa.me/558488075719"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Fazer orçamento
               </a>
             </div>
@@ -66,17 +68,19 @@ export default function App() {
             <div className="card accent">
               <h3>Estilo e Proposta</h3>
               <ul className="list">
-  <li>Artes autorais e personalizadas</li>
-  <li>Estilo Neotraditional (identidade moderna e marcante)</li>
-  <li>Projetos únicos, desenvolvidos do zero</li>
-  <li>
-    Domínio em <strong>free hand</strong>, criando composições diretamente na pele com precisão e segurança
-  </li>
-</ul>
+                <li>Artes autorais e personalizadas</li>
+                <li>Estilo Neotraditional (identidade moderna e marcante)</li>
+                <li>Projetos únicos, desenvolvidos do zero</li>
+                <li>
+                  Domínio em <strong>free hand</strong>, criando composições
+                  diretamente na pele com precisão e segurança
+                </li>
+              </ul>
 
-<p className="muted">
-  Cada projeto é desenvolvido de forma exclusiva, respeitando a ideia e a identidade de quem carrega a tatuagem.
-</p>
+              <p className="muted">
+                Cada projeto é desenvolvido de forma exclusiva, respeitando a
+                ideia e a identidade de quem carrega a tatuagem.
+              </p>
             </div>
           </div>
         </section>
@@ -98,11 +102,7 @@ export default function App() {
               </p>
             </div>
             <div className="artista-destaque__foto-shell">
-              <img
-                src={foto}
-                alt="Dido, tattoo artist"
-                className="dido"
-              />
+              <img src={foto} alt="Dido, tattoo artist" className="dido" />
             </div>
           </div>
         </section>
@@ -112,9 +112,9 @@ export default function App() {
             <div>
               <h2>Curso de Tatuagem</h2>
               <p>
-                O curso <strong>Princípios da Tatuagem</strong>, criado em 2016, foi
-                desenvolvido para quem deseja iniciar na área com base sólida e
-                profissional. Conteúdos abordados:
+                O curso <strong>Princípios da Tatuagem</strong>, criado em 2016,
+                foi desenvolvido para quem deseja iniciar na área com base
+                sólida e profissional. Conteúdos abordados:
               </p>
               <ul className="list">
                 <li>Traço</li>
@@ -129,13 +129,15 @@ export default function App() {
                 Mais do que técnica, o curso prepara o aluno para entrar no
                 mercado com segurança e confiança.
               </p>
-              <a className="btn btn-primary"  href="https://wa.me/558488075719"
-                  target="_blank"
-                  rel="noreferrer">
+              <a
+                className="btn btn-primary"
+                href="https://wa.me/558488075719"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Saiba mais sobre o curso
               </a>
             </div>
-         
           </div>
         </section>
 
@@ -168,9 +170,12 @@ export default function App() {
                 <li>Agende sua sessão mediante sinal</li>
               </ol>
               <div className="cta orcamento-cta">
-                <a className="btn btn-primary" href="https://wa.me/558488075719"
+                <a
+                  className="btn btn-primary"
+                  href="https://wa.me/558488075719"
                   target="_blank"
-                  rel="noreferrer">
+                  rel="noreferrer"
+                >
                   Fazer orçamento agora
                 </a>
               </div>
@@ -194,7 +199,8 @@ export default function App() {
               <p>
                 📍 <strong>Pipa</strong> – <strong>Pousada Cata Vento</strong>
                 <br />
-                Av. Baía dos Golfinhos, S/N - Praia da Pipa, Tibau do Sul - RN, 59179-000
+                Av. Baía dos Golfinhos, S/N - Praia da Pipa, Tibau do Sul - RN,
+                59179-000
               </p>
               <div className="map">
                 <iframe
@@ -211,52 +217,62 @@ export default function App() {
             </div>
             <div className="card">
               <h3>Fale com a gente</h3>
-              
+
               <div className="cta">
-                <a   href="https://wa.me/558488075719"
+                <a
+                  href="https://wa.me/558488075719"
                   target="_blank"
-                  rel="noreferrer">
-                    <img src={whatsapp}></img>
-              
+                  rel="noreferrer"
+                >
+                  <img src={whatsapp}></img>
                 </a>
-                <a  href="https://www.instagram.com/deliriumtattoo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                <a
+                  href="https://www.instagram.com/deliriumtattoo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                   target="_blank"
-                  rel="noreferrer">
-                    <img src={instagram}></img>
-                
+                  rel="noreferrer"
+                >
+                  <img src={instagram}></img>
                 </a>
-                
               </div>
               <a className="btn btn-outline inicio" href="#inicio">
-                  Voltar ao início
-                </a>
+                Voltar ao início
+              </a>
             </div>
           </div>
         </section>
-        <footer> 
-      <div className="gap">
-        <img src={logo} alt="Delirium Tattoo" className="logo-footer"/>
+        <footer>
+          <div className="gap">
+            <img src={logo} alt="Delirium Tattoo" className="logo-footer" />
 
-        <p>Não é só tatuagem. É identidade.</p>
-<ul>
-  <li><a href="#inicio">Início</a></li>  
-  <li><a href="#sobre">Sobre</a></li> 
-  <li> <a href="#artistas">Artistas</a></li>
-  <li><a href="#curso">Curso</a></li> 
-  <li> <a href="#contato">Contato</a></li>
-  </ul>
-  <div className="redes-sociais">
-      <img src={insta} alt="Instagram"/>
- <p>@deliriumtattoo</p>
+            <p>Não é só tatuagem. É identidade.</p>
+            <ul>
+              <li>
+                <a href="#inicio">Início</a>
+              </li>
+              <li>
+                <a href="#sobre">Sobre</a>
+              </li>
+              <li>
+                {" "}
+                <a href="#artistas">Artistas</a>
+              </li>
+              <li>
+                <a href="#curso">Curso</a>
+              </li>
+              <li>
+                {" "}
+                <a href="#contato">Contato</a>
+              </li>
+            </ul>
+            <div className="redes-sociais">
+              <img src={insta} alt="Instagram" />
+              <p>@deliriumtattoo</p>
 
-  
-    <img src={wpp} alt="WhatsApp" />
-<p>+55 84 98807-5719</p>
-
-
-</div>
-<p>© 2026 Delirium Studio. Todos os direitos reservados.</p>
-      </div>
+              <img src={wpp} alt="WhatsApp" />
+              <p>+55 84 98807-5719</p>
+            </div>
+            <p>© 2026 Delirium Studio. Todos os direitos reservados.</p>
+          </div>
         </footer>
       </main>
     </>
