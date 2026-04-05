@@ -26,12 +26,16 @@ a {
 .menu.ativo {
   display: flex;
   flex-direction: column;
+  text-align: end;
+  justify-content: center;
+  width: 60%;
+  height: 100vh;
   position: absolute;
-  gap: 10px;
-  top: 70px;
+  gap: 50px;
+  top: 50px;
   right: 0;
   background: var(--cor-fundo2);
-  padding: 30px;
+  padding: 20px;
   border-radius: 8px;
 }
 
