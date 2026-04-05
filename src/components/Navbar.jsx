@@ -22,6 +22,7 @@ function Navbar() {
         <a href="#inicio">Início</a>
         <a href="#sobre">Sobre</a>
         <a href="#artistas">Artista</a>
+        <a href="#artes">Artes</a>
         <a href="#curso">Curso</a>
         <a href="#contato">Contato</a>
       </nav>
