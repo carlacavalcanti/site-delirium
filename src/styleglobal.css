@@ -81,7 +81,19 @@ p {
   max-width: 64ch;
   margin-bottom: 22px;
 }
-
+.card.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  padding: 20px;
+}
+.contato-layout {
+  display: flex;
+  flex-direction: column; /* 👈 empilha */
+  gap: 20px;
+}
 .btn {
   display: inline-flex;
   align-items: center;
@@ -183,6 +195,11 @@ p {
     inset 0 1px 0 #ffffff10,
     0 8px 28px rgba(0, 0, 0, 0.25);
 }
+.flex {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 .card.accent {
   border-color: rgba(215, 101, 39, 0.35);
   box-shadow:
@@ -257,13 +274,13 @@ footer {
   grid-template-columns: repeat(3, 1fr);
   gap: 18px;
 }
+
 @media (max-width: 900px) {
   .grid-3 {
     grid-template-columns: 1fr;
   }
 }
 
-/* HERO */
 .hero {
   position: relative;
   padding: 120px 0 72px;

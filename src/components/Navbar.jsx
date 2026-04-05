@@ -1,6 +1,7 @@
 import { useState } from "react";
 import logo from "../assets/icons/logodelirium.png";
 import menuIcon from "../assets/icons/menu.svg";
+import close from "../assets/icons/close.svg";
 import "./Navbar.css";
 
 function Navbar() {
@@ -11,7 +12,7 @@ function Navbar() {
       <img src={logo} className="logo" alt="Delirium Studio" />
 
       <img
-        src={menuIcon}
+        src={menuAberto ? close : menuIcon}
         className="hamburguer"
         onClick={() => setMenuAberto(!menuAberto)}
         alt="Menu"

@@ -60,9 +60,7 @@ export default function App() {
               <p>
                 Hoje, com mais de 16 anos de experiência, o estúdio se destaca
                 pela criação de artes autorais e exclusivas, sempre respeitando
-                a identidade de cada cliente. Além de tatuar, o projeto também
-                abre espaço para novos artistas, tornando o acesso à área mais
-                possível — algo que no passado era muito mais difícil.
+                a identidade de cada cliente.
               </p>
             </div>
             <div className="card accent">
@@ -163,7 +161,7 @@ export default function App() {
           <div className="container two-col">
             <div>
               <h2>Como funciona o orçamento</h2>
-              <p>Muita gente tem dúvida. Funciona assim:</p>
+
               <ol className="list ordered">
                 <li>Envie sua ideia pelo WhatsApp</li>
                 <li>Receba o orçamento e orientações</li>
@@ -193,7 +191,7 @@ export default function App() {
         </section>
 
         <section id="contato" className="section">
-          <div className="container two-col">
+          <div className="container contato-layout">
             <div>
               <h2>Localização e Contato</h2>
               <p>
@@ -204,18 +202,17 @@ export default function App() {
               </p>
               <div className="map">
                 <iframe
-                  title="Mapa"
-                  src="https://maps.google.com/maps?q=Av.%20Ba%C3%ADa%20dos%20Golfinhos%2C%20S%2FN%20-%20Praia%20da%20Pipa%2C%20Tibau%20do%20Sul%20-%20RN%2C%2059179-000&z=16&output=embed"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2481889527144!2d-35.048560825009616!3d-6.230976393757172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b28fe4491a6801%3A0x9dc84789641b95fe!2sHostel%20e%20Co-living%20Catavento%20da%20Pipa!5e0!3m2!1sen!2sbr!4v1775348264997!5m2!1sen!2sbr"
                   width="100%"
                   height="260"
                   style={{ border: 0 }}
-                  allowFullScreen=""
+                  allowfullscreen=""
                   loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
+                  referrerpolicy="no-referrer-when-downgrade"
                 ></iframe>
               </div>
             </div>
-            <div className="card">
+            <div className="card flex">
               <h3>Fale com a gente</h3>
 
               <div className="cta">
@@ -234,10 +231,10 @@ export default function App() {
                   <img src={instagram}></img>
                 </a>
               </div>
-              <a className="btn btn-outline inicio" href="#inicio">
-                Voltar ao início
-              </a>
             </div>
+            <a className="btn btn-outline inicio" href="#inicio">
+              Voltar ao início
+            </a>
           </div>
         </section>
         <footer>
