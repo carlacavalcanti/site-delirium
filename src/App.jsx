@@ -18,12 +18,19 @@ export default function App() {
         <section className="hero">
           <div className="container">
             <p className="eyebrow">DELIRIUM STUDIO</p>
+
             <h1>
-              Transformando ideias em <span>arte na pele</span>.
+              Estúdio de tatuagem em <span>Pipa</span> com arte autoral e
+              exclusiva
             </h1>
+
+            <p className="seo">
+              Tatuagens autorais, personalizadas e feitas em free hand em Pipa –
+              Rio Grande do Norte.
+            </p>
             <p className="sub">
-              Tatuagens autorais, exclusivas e feitas com identidade. Cada traço
-              carrega uma história — a sua.
+              Cada traço carrega identidade, técnica e uma história única — a
+              sua.
             </p>
             <div className="cta">
               <a
@@ -242,7 +249,10 @@ export default function App() {
         <footer>
           <div className="gap">
             <img src={logo} alt="Delirium Tattoo" className="logo-footer" />
-
+            <p>
+              Estúdio de tatuagem em Pipa – Rio Grande do Norte especializado em
+              tatuagens autorais e free hand.
+            </p>
             <p>Não é só tatuagem. É identidade.</p>
             <ul>
               <li>
