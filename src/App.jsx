@@ -5,6 +5,9 @@ import whatsapp from "./assets/icons/wppverde.png";
 import insta from "./assets/icons/instagram.png";
 import wpp from "./assets/icons/whatsapp.png";
 import foto from "./assets/imagens/dido.jpeg";
+import feedback1 from "./assets/imagens/feedback1.png";
+import feedback2 from "./assets/imagens/feedback2.png";
+import feedback3 from "./assets/imagens/feedback3.png";
 
 export default function App() {
   return (
@@ -144,14 +147,13 @@ export default function App() {
             <h2>Feedbacks</h2>
             <div className="grid-3">
               <div className="card quote">
-                “Experiência incrível, atendimento impecável e resultado
-                perfeito!”
+                <img src={feedback1} />
               </div>
               <div className="card quote">
-                “Profissionalismo e talento em cada detalhe.”
+                <img src={feedback2} />
               </div>
               <div className="card quote">
-                “Minha melhor tatuagem, sem dúvidas.”
+                <img src={feedback3} />
               </div>
             </div>
           </div>

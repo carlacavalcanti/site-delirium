@@ -22,11 +22,23 @@ a {
 .menu {
   display: none;
 }
+.menu a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.menu a:hover {
+  color: var(--cor-principal);
+  text-shadow:
+    0 0 5px var(--cor-principal),
+    0 0 10px var(--cor-principal),
+    0 0 20px var(--cor-principal);
+}
 
 .menu.ativo {
   display: flex;
   flex-direction: column;
-  text-align: end;
+  text-align: start;
   justify-content: center;
   width: 60%;
   height: 100vh;
